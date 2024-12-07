@@ -1,0 +1,17 @@
+Package: Rython
+Type: Convert Python Code to R Code
+Title: Python to R Code Translator
+Version: 0.1.0
+Author: Vigneshwara Chandrasekaran [aut, cre] (@wikki13)
+Description: A package to translate Python code into R code by mapping syntax, functions, and libraries. It handles common Python libraries such as numpy, pandas, and matplotlib, converting them into their R equivalents.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Imports:
+    Matrix,
+    data.table,
+    ggplot2
+Suggests: 
+    testthat (>= 3.0.0),
+    roxygen2

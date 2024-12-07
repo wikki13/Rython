@@ -1,0 +1,4 @@
+python_function,r_equivalent
+np.array,array
+pd.DataFrame,data.frame
+plt.plot,ggplot
