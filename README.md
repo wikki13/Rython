@@ -1,13 +1,23 @@
-Rython
+# Rython
 
-Rython is an R package designed to convert Python code to R code. It simplifies the process of translating Python scripts into their R equivalents, making it easier for users familiar with R to adapt Python code to R. The package provides a set of functions that map common Python constructs (e.g., imports, variables, functions) to their R counterparts.
+**Rython** is an R package designed to convert Python code to R code. It simplifies the process of translating Python scripts into their R equivalents, making it easier for users familiar with R to adapt Python code to R. The package provides a set of functions that map common Python constructs (e.g., imports, variables, functions) to their R counterparts.
 
-Features
-Python to R Code Translation: The core functionality of the package is to translate basic Python syntax into R, including variables, imports, functions, and basic control structures.
-Import Translation: The package converts Python's import statements to the appropriate R library() calls, making it easy to switch between Python and R libraries.
-Variable Conversion: Automatically converts Python variable assignments (e.g., x = [1, 2, 3]) into their R equivalents (e.g., x <- c(1, 2, 3)).
-Function Definitions: Translates Python function definitions into R function syntax, making it easier to adapt Python code into R.
-Boolean and None Translation: Converts Python booleans (True, False) and None into R equivalents (TRUE, FALSE, NULL).
+## Features
+
+- **Python to R Code Translation**: The core functionality of the package is to translate basic Python syntax into R, including variables, imports, functions, and basic control structures.
+- **Import Translation**: The package converts Python's `import` statements to the appropriate R `library()` calls, making it easy to switch between Python and R libraries.
+- **Variable Conversion**: Automatically converts Python variable assignments (e.g., `x = [1, 2, 3]`) into their R equivalents (e.g., `x <- c(1, 2, 3)`).
+- **Function Definitions**: Translates Python function definitions into R function syntax, making it easier to adapt Python code into R.
+- **Boolean and None Translation**: Converts Python booleans (`True`, `False`) and `None` into R equivalents (`TRUE`, `FALSE`, `NULL`).
+
+## Installation
+
+You can install the **Rython** package from CRAN (once available) or directly from GitHub using the `devtools` package:
+
+```r
+# Install from GitHub (Development version)
+devtools::install_github("wikki13/Rython")
+
 Installation
 You can install the Rython package from CRAN (once available) or directly from GitHub using the devtools package:
 
