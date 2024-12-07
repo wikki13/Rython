@@ -28,8 +28,7 @@ devtools::install_github("wikki13/Rython")
 Usage
 To use the package, simply load it and call the translate_python_to_r() function, passing the Python code you want to translate as a string.
 
-R
-Copy code
+
 # Example usage
 library(Rython)
 
@@ -40,23 +39,19 @@ translated_code <- translate_python_to_r(python_code)
 print(translated_code)
 This will translate Python code like:
 
-python
-Copy code
-import numpy as np
-x = np.array([1, 2, 3])
-Into R code:
-
-r
-Copy code
+# Example output
 library(Matrix)
 x <- array(c(1, 2, 3))
-Future Developments
-Enhanced Syntax Support: Plans to expand the translation to cover more complex Python features, such as classes, loops, conditionals, and exception handling.
-Bi-directional Translation: Future versions may include a feature for converting R code back to Python, making it easier to work with both languages in parallel.
-Optimizations and Improvements: Continued improvements to the accuracy of the translation, including handling edge cases and uncommon Python libraries.
-Performance Enhancements: Optimizing the speed and efficiency of the translation process, especially for larger Python scripts.
-Contributing
-Contributions are welcome! If you'd like to help improve Rython, feel free to open an issue or submit a pull request on the GitHub repository.
+```
 
-License
-Rython is licensed under the MIT License.
+### Future Developments
+- **Enhanced Syntax Support**: We plan to extend the package to handle more advanced Python constructs, such as classes, loops, and exception handling.
+- **Bi-directional Translation**: Future versions will explore the possibility of translating R code back to Python, enabling a more seamless integration between both languages.
+- **Improved Libraries Handling**: There are plans to support more Python libraries and their R equivalents for smoother transitions in scientific computing and machine learning projects.
+- **Code Optimization**: Enhancing the speed and efficiency of code translation, especially when dealing with large Python scripts.
+
+# Contributing
+**Contributions** are welcome! If you'd like to help improve Rython, feel free to open an issue or submit a pull request on the GitHub repository.
+
+# License
+**Rython** is licensed under the MIT License.
