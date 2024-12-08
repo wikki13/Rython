@@ -49,6 +49,18 @@ This will translate Python code like:
 library(Matrix)
 x <- array(c(1, 2, 3))
 ```
+## **Comparison: Rython vs Reticulate**
+
+| Feature                       | **Rython**                                                                                          | **Reticulate**                                                                                  |
+|-------------------------------|-----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|
+| **Purpose**                  | Translates Python code into equivalent R code.                                                     | Enables Python code to be directly executed and integrated within R.                          |
+| **Workflow Integration**     | Provides translated R code for use in native R environments.                                        | Embeds Python within R scripts or workflows, allowing both languages to coexist.              |
+| **User Base**                | Ideal for Python developers migrating to R or needing a full conversion of Python scripts to R.     | Designed for users comfortable with using both Python and R simultaneously.                   |
+| **Code Conversion**          | Converts Python syntax, functions, and libraries into R equivalents.                              | No conversion; Python code is executed as-is using an embedded Python interpreter.            |
+| **Dependency Management**    | Independent of Python runtime; focuses solely on generating R code.                                | Requires a Python environment to run embedded Python code.                                    |
+| **Examples of Use**          | Migrating Python scripts to R for long-term use, teaching, or adapting to R-native workflows.       | Combining Python and R in a single workflow, leveraging libraries from both ecosystems.       |
+| **Learning Curve**           | Simplifies the process for users transitioning from Python to R.                                    | Requires familiarity with both Python and R for seamless integration.                         |
+
 
 ### Future Developments
 - **Enhanced Syntax Support**: We plan to extend the package to handle more advanced Python constructs, such as classes, loops, and exception handling.
@@ -56,8 +68,13 @@ x <- array(c(1, 2, 3))
 - **Improved Libraries Handling**: There are plans to support more Python libraries and their R equivalents for smoother transitions in scientific computing and machine learning projects.
 - **Code Optimization**: Enhancing the speed and efficiency of code translation, especially when dealing with large Python scripts.
 
-# Contributing
-**Contributions** are welcome! If you'd like to help improve Rython, feel free to open an issue or submit a pull request on the GitHub repository.
+## **Contributing**
 
-# License
-**Rython** is licensed under the MIT License.
+We welcome contributions! Check out our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
+---
+
+## **License**
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
