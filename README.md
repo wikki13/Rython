@@ -3,7 +3,7 @@
 <img src="man/figures/Rython_logo.webp" alt="Rython" width="200" align="center" style="margin-right: 15px;"/>
 
 
-**Rython** is an R package designed to convert Python code to R code. 
+**Rython** is an R library designed to convert Python code to R code. 
 It simplifies the process of translating Python scripts into their R equivalents, 
 making it easier for users familiar with R to adapt Python code to R. 
 The package provides a set of functions that map common Python constructs (e.g., imports, variables, functions) to their R counterparts.
